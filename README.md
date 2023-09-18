@@ -13,9 +13,9 @@ Here I used the data from Seattle Airbnb to get some insight to answer couple of
 
 - Udacity_Project1.ipynb is a Jupyter notebook where I have looked at the data and for each question above I did some analysis with plots for visualisation.
 - Seattle folder contains 3 csv files that are used in the code as inputs for different analysis.
-** Listings, including full descriptions, average review score, and all information regarding each listing id
-** Reviews, including unique id for each reviewer and detailed comments
-** Calendar, including listing id and the price and availability for that day
+    * Listings, including full descriptions, average review score, and all information regarding each listing id
+    * Reviews, including unique id for each reviewer and detailed comments
+    * Calendar, including listing id and the price and availability for that day
 - df_review_grouped.pkl is a dataframe which is a result of a preprocess function that works on the text values. As this function takes a long time to run each time on the whole data, I saved the out put and read in later in the code so I do not need to run the function everytime.
 
 ## Results
@@ -24,10 +24,10 @@ The main findings of the code can be found at the post available [here](https://
 ## Acknowledgements
 To do this project specially the parts related to topic modelling and sentimental analysis, I used instructions, informations, and in some cases functions proposed in the below linkes that I also have referenced in my code where it applies:
 - Topic modelling:
-** [Introduction to Natural Language Processing](https://openclassrooms.com/en/courses/6532301-introduction-to-natural-language-processing/8080062-remove-stopwords-from-a-block-of-text)
-** [Topic Modeling in Python: Latent Dirichlet Allocation (LDA)](https://towardsdatascience.com/end-to-end-topic-modeling-in-python-latent-dirichlet-allocation-lda-35ce4ed6b3e0)
-** [Finding deeper insights with Topic Modeling](https://www.red-gate.com/simple-talk/databases/sql-server/bi-sql-server/deeper-insights-topic-modeling/)
+    * [Introduction to Natural Language Processing](https://openclassrooms.com/en/courses/6532301-introduction-to-natural-language-processing/8080062-remove-stopwords-from-a-block-of-text)
+    * [Topic Modeling in Python: Latent Dirichlet Allocation (LDA)](https://towardsdatascience.com/end-to-end-topic-modeling-in-python-latent-dirichlet-allocation-lda-35ce4ed6b3e0)
+    * [Finding deeper insights with Topic Modeling](https://www.red-gate.com/simple-talk/databases/sql-server/bi-sql-server/deeper-insights-topic-modeling/)
 - Sentimental Analysis:
-** [text-analytics-beginners-nltk](https://www.datacamp.com/tutorial/text-analytics-beginners-nltk)
-** [python-sentiment-analysis-using-vader](https://www.geeksforgeeks.org/python-sentiment-analysis-using-vader/) 
+    * [text-analytics-beginners-nltk](https://www.datacamp.com/tutorial/text-analytics-beginners-nltk)
+    * [python-sentiment-analysis-using-vader](https://www.geeksforgeeks.org/python-sentiment-analysis-using-vader/) 
 
