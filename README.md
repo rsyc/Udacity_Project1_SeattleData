@@ -43,7 +43,7 @@ For wordcloud to work you need to install pillow:
 
 To do data preparation for LDA modelling you need to first install gensim and then import it and its depending libraries:
 - `!pip install gensim`
-from gensim.utils import simple_preprocess
+- `from gensim.utils import simple_preprocess`
 - `import gensim.corpora as corpora`
 
 To do the LDA modelling you need to install pyLDAvis:
