@@ -59,6 +59,7 @@ then import it and its dependant libraries:
 
 To do Sentimental analysis you need to install nltk:
 - `!pip install nltk`
+
 then import it and its dependant libraries:
 - `import nltk`
 - `from nltk.sentiment.vader import SentimentIntensityAnalyzer`
