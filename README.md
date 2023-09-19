@@ -48,9 +48,11 @@ To do data preparation for LDA modelling you need to first install gensim and th
 
 To do the LDA modelling you need to install pyLDAvis:
 - `!pip install pyLDAvis`
+
 and upgrade pyLDAvis and pandas
 - `!pip install --upgrade pyLDAvis==3.4.1`
 - `!pip install --upgrade pandas==1.5.1`
+
 then import it and its dependant libraries:
 - `import pyLDAvis`
 - `import pyLDAvis.gensim`
